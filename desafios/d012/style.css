@@ -58,6 +58,7 @@ header a:hover {
     background: url(imagens/background001.jpg) no-repeat center center / cover fixed;
     display: flex;
     align-items: center;
+    box-shadow: inset 6px 6px 13px 0px #00000079 ;
 }
 
 .parallax {
@@ -73,6 +74,7 @@ header a:hover {
     background: url(imagens/background002.jpg) no-repeat center center / cover fixed;
     display: flex;
     align-items: center;
+    box-shadow: inset 6px 6px 13px 0px #00000079 ;
 }
 
 footer {
