@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
+        td:nth-child(1) {
+            text-align: center;
+        }
+
+        td:nth-child(2) {
+            text-align: right;
+            width: 100px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia de tabelas grandes
+        <table>
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11.433.957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11.377.239</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td>9.557.071</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td>9.132.078</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>8.602.865</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td>7.164.788</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>7.075.181</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>7.018.354</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>4.144.597</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td>4.018.650</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td>4.018.127</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td>3.506.853</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td>3.484.466</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3.337.357</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>3.273.227</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>3.015.268</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td>2.778.986</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>2.298.696</td>
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td>1.777.225</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1.572.866</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>881.935</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td>845.731</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td>605.761</td>
+            </tr>
+        </tbody>      
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td><strong>83,373,123</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem asperiores mollitia dolorem unde, maxime omnis accusantium exercitationem, sed accusamus vel inventore dignissimos perspiciatis repellendus cumque delectus modi labore est corporis! Delectus doloremque nostrum iusto reprehenderit aspernatur minima, cumque impedit? At error sequi officiis quo labore, suscipit magnam quis unde qui facilis quidem minima quae explicabo soluta nesciunt perspiciatis assumenda perferendis ducimus culpa ea accusamus vero esse nostrum? Debitis placeat delectus maiores sint expedita officia molestias eum tempore libero, officiis et provident quod aperiam dolorem quos tempora? Nobis, exercitationem in! Excepturi tempore voluptatibus, dolores a nemo libero beatae illo itaque impedit, repellendus accusantium, ex dolorum repudiandae omnis. Rem porro, incidunt voluptates at velit aliquid vero ea amet officia blanditiis sunt fugiat. Illum neque possimus odio doloribus modi numquam quo nostrum? Ex, odio perspiciatis porro, facilis eos magnam in animi sit voluptate quis quibusdam fugit rerum eaque dolorum voluptatem dolor tempora, iste fuga ad qui eligendi temporibus? Obcaecati totam, aut, id quasi soluta laborum fugiat magnam voluptatum et quo dolorum sunt doloribus voluptates unde commodi natus dicta! Atque molestiae perspiciatis, quas optio eveniet ea dicta quisquam esse deleniti porro quaerat ut sapiente maiores sit sed ipsam quos officiis accusantium debitis perferendis nihil rem nulla? Eligendi a mollitia, temporibus recusandae nemo autem ducimus consectetur, commodi quia in, repudiandae natus libero aut. Quo quidem sed sapiente modi eaque earum repellendus doloremque molestias incidunt, adipisci dolorem ipsum tenetur et voluptatibus fuga. Porro vero ullam, expedita vel, iusto voluptatum, ea modi sequi quod maxime magnam? Sint quae maxime asperiores, debitis incidunt perspiciatis iste quam itaque odio mollitia numquam minus ut doloribus, est saepe fuga sequi accusamus voluptatum nobis aspernatur! Incidunt fugiat, ipsam quos, autem est dolor amet quae iste magni placeat exercitationem cumque, repellendus sit! Doloribus debitis error tempora iste reiciendis, facere at aspernatur odit non fugiat quae atque eligendi, porro vel modi autem dolorum recusandae. Amet corporis quo sint repellat minus voluptatibus consectetur aperiam vero. Aperiam sint nostrum tempore at libero perspiciatis, sit repellat assumenda omnis labore animi reiciendis consequuntur, quisquam voluptates quod, sapiente quaerat aspernatur quibusdam saepe nesciunt placeat. Modi quae, laboriosam sint nam optio accusantium officia iure vel, obcaecati animi porro quod sit odit culpa. Vero fugiat necessitatibus incidunt iusto laboriosam blanditiis unde maxime, recusandae repudiandae architecto sed aperiam quidem assumenda iure voluptatem voluptates labore! Dolores vitae fugiat animi accusantium voluptas vero ducimus ipsa aperiam, quis nulla, sunt odio obcaecati velit doloremque possimus sit quasi aut sapiente laboriosam culpa, quibusdam architecto. Culpa vel aspernatur dolorum minus rerum autem provident ex deserunt mollitia. Sit culpa ipsa aliquid perferendis quos quidem aliquam quisquam totam corporis voluptatum, quas quae, mollitia, consequatur corrupti repellat neque modi odio necessitatibus! Reprehenderit, quam tempore. Dolores animi voluptas eos quae quis esse, autem earum quos, quo ipsa ad nisi! Rem aut magni deleniti labore itaque? Porro laudantium reprehenderit quis, nihil vel atque quo? Vitae totam laboriosam similique illo optio repudiandae, adipisci delectus aliquid numquam tempore odit consequuntur sit quos neque incidunt asperiores, voluptate doloremque ab placeat temporibus earum. Eius, at fugit!</p>
+</body>
+</html>
