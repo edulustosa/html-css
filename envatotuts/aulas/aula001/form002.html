@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário complexo</title>
+</head>
+<body>
+    <h1>Seu pedido</h1>
+
+    <form action="" method="get">
+        <div>
+            <div>
+                <label for="order-name">Nome</label>
+                <input type="text" id="order-name" name="order-name" placeholder="Seu nome completo" autofocus>
+            </div>
+            <div>
+                <label for="order-email">Endereço de email</label>
+                <input type="email" id="order-email" name="order-email" disabled value="edulustosa@gmail.com">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <label for="order-address-1">Endereço</label>
+                <input type="text" id="order-address-1" name="order-address-1">
+                <input type="text" id="order-address-2" name="order-address-2">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <label for="order-city">Cidade</label>
+                <input type="text" id="order-city" name="order-city"> 
+            </div>
+            <div>
+                <label for="order-estado">Estado</label>
+                <select name="order-estado" id="order-estado">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </select>
+            </div>
+            <div>
+                <label for="order-cep">CEP</label>
+                <input type="text" id="order-cep" name="order-cep">
+            </div>
+        </div>
+
+        <div>
+            <label>Em que cor você vai querer?</label>
+
+            <label for="sample-branco">
+                <input type="checkbox" name="color-sample" id="sample-branco" value="branco" disabled> 
+                Branco
+            </label>
+
+            <label for="sample-magenta">
+                <input type="checkbox" name="color-sample" id="sample-magenta" value="magenta">
+                Magenta
+            </label>
+
+            <label for="sample-coral">
+                <input type="checkbox" name="color-sample" id="sample-coral" value="coral">
+                Coral
+            </label>
+
+            <label for="sample-vinho">
+                <input type="checkbox" name="color-sample" id="sample-vinho" value="vinho">
+                Vinho
+            </label>
+
+            <label for="sample-preto">
+                <input type="checkbox" name="color-sample" id="sample-preto" value="preto">
+                Preto
+            </label>
+        </div>
+
+        <div>
+            <label>Qual o tamanho da sua equipe?</label>
+
+            <label for="size-1">
+                <input type="radio" name="team-size" id="size-1" value="1-5"> 
+                1-5 pessoas
+            </label>
+
+            <label for="size-2">
+                <input type="radio" name="team-size" id="size-2" value="6-10" checked> 
+                6-10 pessoas
+            </label>
+
+            <label for="size-3">
+                <input type="radio" name="team-size" id="size-3" value="10+"> 
+                10+ pessoas
+            </label>
+        </div>
+
+        <div>
+            <label for="order-comentarios">Comentários</label>
+            <textarea name="order-comentarios" id="order-comentarios" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="sign-up">
+                <input type="checkbox" name="sign-up" id="sign-up">
+                Inscreva-se para mais ofertas
+            </label>
+
+            <!-- <button>Fazer o pedido</button> -->
+            <!-- <input type="button" value="Fazer o pedido"> -->
+            <input type="submit" value="Fazer Pedido">
+        </div>
+    </form>
+</body>
+</html>
