@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="form">
+        <h1>Seu Pedido</h1>
+
+        <form action="" method="get">
+            <div>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo" autofocus required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail" required>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="endereco">Endereço</label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Bairro" required>
+                    <input type="text" name="email" id="email" placeholder="Número" required>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+                </div>
+
+                <div>
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="cep">CEP</label>
+                    <input type="text" name="cep" id="cep" placeholder="CEP" required>
+                </div>
+            </div>
+
+            <div>
+                <label>Em qual cor devemos te mandar?</label>
+
+                <label for="branco">
+                    <input type="checkbox" name="cores" id="branco" value="branco" disabled>
+                    Branco
+                </label>
+
+                <label for="roxo">
+                    <input type="checkbox" name="cores" id="roxo" value="roxo">
+                    Roxo
+                </label>
+
+                <label for="verde">
+                    <input type="checkbox" name="cores" id="verde" value="verde">
+                    Verde
+                </label>
+
+                <label for="vinho">
+                    <input type="checkbox" name="cores" id="vinho" value="vinho">
+                    Vinho
+                </label>
+
+                <label for="preto">
+                    <input type="checkbox" name="cores" id="preto" value="preto">
+                    Preto
+                </label>
+            </div>
+
+            <div>
+                <label>Qual o tamanho da sua equipe?</label>
+
+                <label for="pequena">
+                    <input type="radio" name="equipe" id="pequena" value="1-5">
+                    1-5
+                </label>
+
+                <label for="media">
+                    <input type="radio" name="equipe" id="media" value="6-10">
+                    6-10
+                </label>
+
+                <label for="grande">
+                    <input type="radio" name="equipe" id="grande" value="10+">
+                    10+
+                </label>
+            </div>
+
+            <div>
+                <label for="comentario">Sugestões</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="ofertas">
+                    <input type="checkbox" name="ofertas" id="ofertas">
+                    Marque aqui para mais ofertas
+                </label>
+
+                <button>Fazer Pedido</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
