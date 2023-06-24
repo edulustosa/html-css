@@ -14,5 +14,59 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
-    background-color: #d3d3d33a;
+    background-color: #d3d3d346;
+}
+
+.form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+.pessoal {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.pessoal div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.pessoal input {
+    width: 285px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-top: 6px;
+    padding: 14px;
+}
+
+.pessoal input:active {
+    border: 1px solid lightgray;
+}
+
+.endereco {
+    margin-bottom: 30px;
+}
+
+.endereco div {
+    font-weight: 500;
+}
+
+.endereco input {
+    width: 285px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin: 6px 6px 0px 0px;
+    padding: 14px;
+}
+
+.endereco input:active {
+    border: 1px solid lightgray;
 }
